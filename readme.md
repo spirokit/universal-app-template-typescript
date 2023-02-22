@@ -2,12 +2,12 @@
 
 The official SpiroKit template for Universal Apps using:
 
-- Expo SDK 47
-- NextJS 13.1
-- Solito (Cross-platform navigation)
-- SpiroKit (UI Kit)
-- Moti (Animations)
-- React Navigation 6
+- [Expo](https://expo.dev) SDK 47
+- [NextJS](https://nextjs.org/) 13.1
+- [Solito](https://solito.dev/) (Cross-platform navigation)
+- [SpiroKit](https://spirokit.com) (UI Kit)
+- [Moti](https://moti.fyi/) (Animations)
+- [React](https://reactnavigation.org/) Navigation 6
 
 ## Usage
 
@@ -35,6 +35,8 @@ yarn add ../../spirokit-core-[version].tgz
 yarn native
 yarn web
 ```
+
+> I'm currently working on a private npm registry so you don't need to deal with local tgz files. This will drastically simplify the process of creating new projects, update to a new version of SpiroKit, and build using EAS or Vercel.
 
 For more information about how to use SpiroKit, here's the [full storybook documentation](https://docs.spirokit.com).
 
